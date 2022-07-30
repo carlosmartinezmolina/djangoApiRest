@@ -6,7 +6,7 @@ class Task(models.Model):
     taskId = models.CharField(max_length=200)
 
     class Meta:
-        ordering = ['task']
+        ordering = ['taskId']
     
     def __str__(self):
         return self.task
